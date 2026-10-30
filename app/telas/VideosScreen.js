@@ -5,7 +5,7 @@ import { useVideos } from '../contextos/VideosContext.js';
 
 export default function VideosScreen({ navigation }) {
 
-    const { videos, adicionarVideos } = useVideos();
+    const { videos, buscarVideos, adicionarVideos } = useVideos();
 
     return (
         <View style={styles.container}>

@@ -9,7 +9,7 @@ export default function CadastrarVideoScreen({ navigation }) {
     const [descricao, setDescricao] = useState('');
     const [url, setUrl] = useState('');
 
-    const { videos, adicionarVideos } = useVideos();
+    const { videos, buscarVideos, adicionarVideos } = useVideos();
 
     return (
         <View style={styles.container}>
